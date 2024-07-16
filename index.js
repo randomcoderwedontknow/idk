@@ -36,7 +36,7 @@ app.listen(port, () => {
 });
 
 
-const statusMessages = ["Helping Users ig"];
+const statusMessages = ["Helping everyone"];
 
 
 let currentIndex = 0;
