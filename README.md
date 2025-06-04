@@ -11,5 +11,22 @@ This Discord bot status changer is a simple JavaScript application that allows y
    ```shell
    npm install
    ```
-3. Add your token in secrets
 
+3. Create a `.env` file in the root directory and add your Discord bot token:
+   ```
+   TOKEN=your-discord-bot-token-here
+   ```
+   
+   To get your Discord bot token:
+   1. Go to the [Discord Developer Portal](https://discord.com/developers/applications)
+   2. Select your application or create a new one
+   3. Go to the "Bot" section
+   4. Click "Reset Token" or "Copy" to get your token
+   5. Paste the token in your `.env` file
+
+   ⚠️ Never share or commit your bot token! Keep it secret and safe.
+
+4. Start the bot:
+   ```shell
+   npm start
+   ```
